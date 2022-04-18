@@ -770,7 +770,7 @@ margin-bottom: 3rem;
 
 
 
-/*Media Quary*/
+/*Media Query*/
 @media(max-width: 800px){
     .nav,
     .intro,
@@ -878,7 +878,117 @@ margin-bottom: 3rem;
         flex-basis: 100%;
         padding-right: 0;
     }
+ 
+ }
+
+@media(max-width: 360px){
+    .nav,
+    .intro,
+    .skills{
+        width: auto;
+    }
+    .wrapper_nav{
+        width: 90%;
+    }
+    .contnent_intro{
+        width: 90%;
+    }
+    .contnent_prj{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .btn_flex{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 50%;
+        gap: 20px;
+    }
+    .contnent_intro p{
+        margin-right: 2rem;
+    }
+    .skills{
+        height: auto;
+    }
     
+    .contnent_skills{
+        flex-direction: column;
+        align-items: baseline;
+        margin: 0 auto;
+    }
+    .wrapper_skill{
+        flex-direction: column;
+        width: 80%;
+        display: block;
+
+    }
+    .wrapper_work {
+        width: 90%;
+    }
+    .contnent_work{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .layer{
+        height: 100%;
+        width: 100%; 
+    }
+    .about{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 2.5rem;
+        height: 580px;
+    }
+    .contnent_about{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 0;
+    }
+    .contnent_prj h2{
+        font-size: 19px;
+    }
+    .contnent_prj .bold_copy{
+        font-size: 16px;
+        margin-bottom: 0.15rem;
+    }
+    .contnent_prj p{
+        font-size: 13px;
+        margin-right: 1rem;
+        line-height: 1.25rem;
+    }
+    .freq_img{
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .contnent_about img{
+        width: 50%;
+        height: 100%;
+    }
+
+    .content_about__item p{
+        line-height: 1.3rem;
+        font-size: 14px;
+    }
+    .content_about__image{
+        margin-bottom: 2rem;
+    }
+    .wrapper_cta{
+        width: 80%;
+    }
+    .contnent_footer{
+        width: 80%;
+    }
+    .contnent_resume{
+        flex-direction: column;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .content_resume__left{
+        flex-basis: 100%;
+        padding-right: 0;
+    }
+ 
  }
 
     
